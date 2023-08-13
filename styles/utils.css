@@ -1,0 +1,170 @@
+
+/* 2xl
+@media ( max-width: 1536px) {
+ 
+}
+
+
+/* xl */
+/* @media ( max-width: 1280px) {
+  
+
+} */
+
+
+
+/* lg*/
+/* @media ( max-width: 1024px) {
+
+
+} */
+
+/* md */
+/* @media ( max-width: 768px) {
+  
+} */
+
+
+
+/* sm */
+/* @media ( max-width: 640px) {
+      
+} */
+
+
+/* xs */
+/* @media ( max-width: 475px) {
+   
+} */ 
+
+
+
+
+.container {
+    /* max-width: 1536px; */
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem; 
+    /* border: 2px solid red; */
+}
+
+
+.btn {
+    background-color: var(--clr-yellow);
+    padding: .3rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline;
+    font-weight: 600;
+    font-size: 11px;
+    border: 2 px solid transparent;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: transparent;
+    border-color: var(--clr-yellow);
+    color: var(--clr-yellow);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section {
+    margin-top: 7rem;
+}
+
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--clr-yellow);
+}
+
+img {
+    width: 100%;
+}
+
+
+/* 2xl */
+@media ( max-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+
+/* xl */
+@media ( max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+
+
+/* lg*/
+@media ( max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .section {
+        margin-top: 3rem;
+    }
+
+    .btn {
+        font-size: var(--size-xs);
+        padding: .2rem 1rem;
+    }
+
+    
+
+}
+
+/* md */
+@media ( max-width: 768px) {
+    .container {
+        max-width: 640px;
+    }
+
+    .section {
+        margin-top: 2rem;
+    }
+
+   
+}
+
+
+
+/* sm */
+@media ( max-width: 640px) {
+    .container {
+        max-width: 475px;
+    }
+
+    .btn {
+        font-size: 11px;
+        padding: .3rem 1.5rem;
+    }
+   
+}
+
+
+/* xs */
+@media ( max-width: 475px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+
+
+
